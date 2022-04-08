@@ -107,3 +107,5 @@ du -h
 find . -type f -exec du -sh {} 2>/dev/null + | sort -rh | head -n 10
 
 *>/dev/null* - вывод чего бы то ни было
+
+*-exec* - подстановка файла вместо {}

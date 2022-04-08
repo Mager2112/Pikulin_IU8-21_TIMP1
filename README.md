@@ -105,3 +105,5 @@ du -h
 ###### 11) Топ 10 самых тяжёлых:
 
 find . -type f -exec du -sh {} 2>/dev/null + | sort -rh | head -n 10
+
+*>/dev/null* - вывод чего бы то ни было
